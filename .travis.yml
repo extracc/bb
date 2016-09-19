@@ -11,7 +11,7 @@ before_script:
     - git config --global user.email 'ab_z@qq.com'
 
 script:
-    - hexo generate
+    - hexo g
 
 after_success:
     - mkdir .deploy
